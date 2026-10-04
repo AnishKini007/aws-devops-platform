@@ -3,7 +3,7 @@
 nameOverride: "order-service"
 
 image:
-  repository: "975050192962.dkr.ecr.ap-south-1.amazonaws.com/eks-platform/order-service"
+  repository: "<AWS_ACCOUNT_ID>.dkr.ecr.ap-south-1.amazonaws.com/eks-platform/order-service"
   tag: "latest"
 
 service:

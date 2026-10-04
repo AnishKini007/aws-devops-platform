@@ -6,7 +6,7 @@ serviceAccount:
   create: true
   name: aws-load-balancer-controller
   annotations:
-    eks.amazonaws.com/role-arn: arn:aws:iam::975050192962:role/eks-platform-dev-alb-controller
+    eks.amazonaws.com/role-arn: arn:aws:iam::<AWS_ACCOUNT_ID>:role/eks-platform-dev-alb-controller
 
 replicaCount: 2
 

@@ -31,7 +31,9 @@ prometheus:
 
 grafana:
   enabled: true
-  adminPassword: admin123  # Change in production!
+  # No password in Git: when adminPassword is empty, the Grafana chart generates a random one
+  # and stores it in the monitoring-grafana Secret (see README for how to read it).
+  adminPassword: ""
   
   persistence:
     enabled: true

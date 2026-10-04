@@ -4,7 +4,7 @@
 nameOverride: "user-service"
 
 image:
-  repository: "975050192962.dkr.ecr.ap-south-1.amazonaws.com/eks-platform/user-service"
+  repository: "<AWS_ACCOUNT_ID>.dkr.ecr.ap-south-1.amazonaws.com/eks-platform/user-service"
   tag: "latest"
 
 service:
